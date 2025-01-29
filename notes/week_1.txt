@@ -1,0 +1,17 @@
+Password attacks
+* Dict of common passwords, private info, heuristics
+* Password of same user in exposed lists
+* Defense: rate-limit password attempts
+* GPU rig for fast hashing (parallel computing)
+* Can try all 8 char passwords < 1hr, 2^49 guesses/hour
+
+Hashing and Salting
+* Store password hashes instead of plain text 
+* Crypographic hash function (SHA-256)
+	* One-way: computationally infeasible to go h(x) -> x
+	* Collision resistance: can't find h(x') = h(x)
+* Rainbow tables: hackers precompute hashes of common tables, can quickly find matching passwords
+* Salting: h(pw||salt), append salt to password
+	* Salt picked randomly for every user, no Rainbow table attacks
+	* Store hashed password and salt
+
