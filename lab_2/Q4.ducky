@@ -1,0 +1,17 @@
+DEFAULT_DELAY 1000
+GUI r
+STRING notepad.exe
+ENTER
+CTRL t
+STRING if __name__ == "__main__":
+ENTER
+TAB
+STRING print("hello world!")
+CTRL s
+STRING Q4.py
+ENTER
+GUI r
+STRING cmd.exe
+ENTER
+STRING python OneDrive\Documents\Q4.py
+ENTER

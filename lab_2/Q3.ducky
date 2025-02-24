@@ -1,0 +1,13 @@
+DEFAULT_DELAY 1000
+GUI r
+STRING notepad.exe
+ENTER
+STRING ECHO gordon
+CTRL s
+STRING Q3.bat
+ENTER
+GUI r
+STRING cmd.exe
+ENTER
+STRING .\OneDrive\Documents\Q3.bat
+ENTER
