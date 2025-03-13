@@ -1,0 +1,25 @@
+* IP routes packets to dest IP address
+* IPv4: 32 bits, IPv6: 128 bits
+* Domain name (google.com) -> Domain name system (DNS) -> IP address
+* hierarchical domains: top level (com, edu, net), subdomains separated by dots
+
+* phishing: social engineering attack
+	* bait: URL or file
+	* installs malware, expose private info on spoofed website
+
+* .com.top
+* homogrphaic domain names: using similar chars
+
+* spoofing emails via email forwarder: gmail.com via hotmail.com
+* spear-phishing: customized to victim
+
+* emails, social networks, SMS, ads, search engine poisoning, typosquatting
+
+* MitM spoofing: real-time redirect and communicating to real site
+
+* phishing website blacklists
+* require TLS certificates
+* domain owners buy similar domain names
+
+* moby-phish: user required to click moby button to go to website
+
